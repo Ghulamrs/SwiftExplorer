@@ -7,37 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9671FC7C25C6F438002B8412 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9671FC7B25C6F438002B8412 /* LocationManager.swift */; };
-		96A3CA8225C4FF5300A719C5 /* SwiftExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3CA8125C4FF5300A719C5 /* SwiftExplorerApp.swift */; };
-		96A3CA8425C4FF5300A719C5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3CA8325C4FF5300A719C5 /* ContentView.swift */; };
 		96A3CA8625C4FF5400A719C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A3CA8525C4FF5400A719C5 /* Assets.xcassets */; };
 		96A3CA8925C4FF5400A719C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96A3CA8825C4FF5400A719C5 /* Preview Assets.xcassets */; };
-		96A3CA9725C50E1200A719C5 /* SwiftExplorerAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3CA9625C50E1200A719C5 /* SwiftExplorerAppDelegate.swift */; };
-		96A3CAA025C5117500A719C5 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3CA9F25C5117500A719C5 /* GoogleMapsView.swift */; };
-		96F057D325C9BEB900542417 /* LeftMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F057D225C9BEB900542417 /* LeftMenuView.swift */; };
-		96F057D625C9BEFC00542417 /* LeftMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F057D525C9BEFC00542417 /* LeftMenuHeaderView.swift */; };
-		96F057D925C9BF6000542417 /* LeftMenuOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F057D825C9BF6000542417 /* LeftMenuOptionView.swift */; };
-		96F057DC25C9BFA900542417 /* LeftMenuViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F057DB25C9BFA900542417 /* LeftMenuViewModel.swift */; };
-		96F057E525C9E34900542417 /* Members.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96F057E425C9E34900542417 /* Members.swift */; };
+		96E8508226D2AB2500193040 /* GoogleMapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8508126D2AB2500193040 /* GoogleMapsView.swift */; };
+		96E8508D26D2AB5000193040 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8508326D2AB5000193040 /* ContentView.swift */; };
+		96E8508E26D2AB5000193040 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8508426D2AB5000193040 /* LocationManager.swift */; };
+		96E8508F26D2AB5100193040 /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8508526D2AB5000193040 /* LocationViewModel.swift */; };
+		96E8509026D2AB5100193040 /* AlertSignal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8508626D2AB5000193040 /* AlertSignal.swift */; };
+		96E8509126D2AB5100193040 /* LocationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8508726D2AB5000193040 /* LocationData.swift */; };
+		96E8509826D2AD2C00193040 /* SwiftExplorerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8509526D2AD2C00193040 /* SwiftExplorerApp.swift */; };
+		96E8509926D2AD2C00193040 /* UserPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8509626D2AD2C00193040 /* UserPreferences.swift */; };
+		96E8509A26D2AD2C00193040 /* SwiftExplorerAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96E8509726D2AD2C00193040 /* SwiftExplorerAppDelegate.swift */; };
 		ED51DDA70B0CDB6204676A9A /* Pods_SwiftExplorer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 997BA62798755F4C82F18CED /* Pods_SwiftExplorer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		823479B78B5778E2905AA712 /* Pods-SwiftExplorer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExplorer.debug.xcconfig"; path = "Target Support Files/Pods-SwiftExplorer/Pods-SwiftExplorer.debug.xcconfig"; sourceTree = "<group>"; };
-		9671FC7B25C6F438002B8412 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		96A3CA7E25C4FF5300A719C5 /* SwiftExplorer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftExplorer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96A3CA8125C4FF5300A719C5 /* SwiftExplorerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExplorerApp.swift; sourceTree = "<group>"; };
-		96A3CA8325C4FF5300A719C5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		96A3CA8525C4FF5400A719C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96A3CA8825C4FF5400A719C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96A3CA8A25C4FF5400A719C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96A3CA9625C50E1200A719C5 /* SwiftExplorerAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftExplorerAppDelegate.swift; sourceTree = "<group>"; };
-		96A3CA9F25C5117500A719C5 /* GoogleMapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleMapsView.swift; sourceTree = "<group>"; };
-		96F057D225C9BEB900542417 /* LeftMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuView.swift; sourceTree = "<group>"; };
-		96F057D525C9BEFC00542417 /* LeftMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuHeaderView.swift; sourceTree = "<group>"; };
-		96F057D825C9BF6000542417 /* LeftMenuOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuOptionView.swift; sourceTree = "<group>"; };
-		96F057DB25C9BFA900542417 /* LeftMenuViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftMenuViewModel.swift; sourceTree = "<group>"; };
-		96F057E425C9E34900542417 /* Members.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Members.swift; sourceTree = "<group>"; };
+		96E8508126D2AB2500193040 /* GoogleMapsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GoogleMapsView.swift; path = SwiftExplorer/Views/GoogleMapsView.swift; sourceTree = SOURCE_ROOT; };
+		96E8508326D2AB5000193040 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96E8508426D2AB5000193040 /* LocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		96E8508526D2AB5000193040 /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationViewModel.swift; sourceTree = "<group>"; };
+		96E8508626D2AB5000193040 /* AlertSignal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertSignal.swift; sourceTree = "<group>"; };
+		96E8508726D2AB5000193040 /* LocationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationData.swift; sourceTree = "<group>"; };
+		96E8509526D2AD2C00193040 /* SwiftExplorerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftExplorerApp.swift; path = ../../../Projects/SUIExplorers/USwiftExplorer2/SwiftExplorer/SwiftExplorerApp.swift; sourceTree = "<group>"; };
+		96E8509626D2AD2C00193040 /* UserPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserPreferences.swift; path = ../../../Projects/SUIExplorers/USwiftExplorer2/SwiftExplorer/UserPreferences.swift; sourceTree = "<group>"; };
+		96E8509726D2AD2C00193040 /* SwiftExplorerAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftExplorerAppDelegate.swift; path = ../../../Projects/SUIExplorers/USwiftExplorer2/SwiftExplorer/SwiftExplorerAppDelegate.swift; sourceTree = "<group>"; };
 		997BA62798755F4C82F18CED /* Pods_SwiftExplorer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftExplorer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D51825F1115825FAC029187C /* Pods-SwiftExplorer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftExplorer.release.xcconfig"; path = "Target Support Files/Pods-SwiftExplorer/Pods-SwiftExplorer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,13 +73,13 @@
 		96A3CA8025C4FF5300A719C5 /* SwiftExplorer */ = {
 			isa = PBXGroup;
 			children = (
+				96E8509526D2AD2C00193040 /* SwiftExplorerApp.swift */,
+				96E8509726D2AD2C00193040 /* SwiftExplorerAppDelegate.swift */,
+				96E8508626D2AB5000193040 /* AlertSignal.swift */,
+				96E8508426D2AB5000193040 /* LocationManager.swift */,
+				96E8509626D2AD2C00193040 /* UserPreferences.swift */,
 				96F057E225C9CA0A00542417 /* Models */,
 				96F057E025C9C0FF00542417 /* Views */,
-				96A3CA8125C4FF5300A719C5 /* SwiftExplorerApp.swift */,
-				96A3CA9625C50E1200A719C5 /* SwiftExplorerAppDelegate.swift */,
-				96A3CA8325C4FF5300A719C5 /* ContentView.swift */,
-				96A3CA9F25C5117500A719C5 /* GoogleMapsView.swift */,
-				9671FC7B25C6F438002B8412 /* LocationManager.swift */,
 				96A3CA8525C4FF5400A719C5 /* Assets.xcassets */,
 				96A3CA8A25C4FF5400A719C5 /* Info.plist */,
 				96A3CA8725C4FF5400A719C5 /* Preview Content */,
@@ -100,9 +98,8 @@
 		96F057E025C9C0FF00542417 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				96F057D225C9BEB900542417 /* LeftMenuView.swift */,
-				96F057D525C9BEFC00542417 /* LeftMenuHeaderView.swift */,
-				96F057D825C9BF6000542417 /* LeftMenuOptionView.swift */,
+				96E8508326D2AB5000193040 /* ContentView.swift */,
+				96E8508126D2AB2500193040 /* GoogleMapsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -110,8 +107,8 @@
 		96F057E225C9CA0A00542417 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				96F057DB25C9BFA900542417 /* LeftMenuViewModel.swift */,
-				96F057E425C9E34900542417 /* Members.swift */,
+				96E8508726D2AB5000193040 /* LocationData.swift */,
+				96E8508526D2AB5000193040 /* LocationViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +163,7 @@
 				TargetAttributes = {
 					96A3CA7D25C4FF5300A719C5 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1250;
 					};
 				};
 			};
@@ -246,16 +244,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96F057D625C9BEFC00542417 /* LeftMenuHeaderView.swift in Sources */,
-				96F057E525C9E34900542417 /* Members.swift in Sources */,
-				96F057D325C9BEB900542417 /* LeftMenuView.swift in Sources */,
-				96A3CAA025C5117500A719C5 /* GoogleMapsView.swift in Sources */,
-				96A3CA8425C4FF5300A719C5 /* ContentView.swift in Sources */,
-				96F057DC25C9BFA900542417 /* LeftMenuViewModel.swift in Sources */,
-				9671FC7C25C6F438002B8412 /* LocationManager.swift in Sources */,
-				96A3CA8225C4FF5300A719C5 /* SwiftExplorerApp.swift in Sources */,
-				96A3CA9725C50E1200A719C5 /* SwiftExplorerAppDelegate.swift in Sources */,
-				96F057D925C9BF6000542417 /* LeftMenuOptionView.swift in Sources */,
+				96E8509126D2AB5100193040 /* LocationData.swift in Sources */,
+				96E8509926D2AD2C00193040 /* UserPreferences.swift in Sources */,
+				96E8508D26D2AB5000193040 /* ContentView.swift in Sources */,
+				96E8508226D2AB2500193040 /* GoogleMapsView.swift in Sources */,
+				96E8508E26D2AB5000193040 /* LocationManager.swift in Sources */,
+				96E8509A26D2AD2C00193040 /* SwiftExplorerAppDelegate.swift in Sources */,
+				96E8509826D2AD2C00193040 /* SwiftExplorerApp.swift in Sources */,
+				96E8509026D2AB5100193040 /* AlertSignal.swift in Sources */,
+				96E8508F26D2AB5100193040 /* LocationViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +381,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftExplorer/Preview Content\"";
 				DEVELOPMENT_TEAM = 5PXM46LJJF;
@@ -396,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = PQR.SwiftExplorer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -407,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftExplorer/Preview Content\"";
 				DEVELOPMENT_TEAM = 5PXM46LJJF;
